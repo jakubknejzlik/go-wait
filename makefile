@@ -1,5 +1,5 @@
 OWNER=jakubknejzlik
-IMAGE_NAME=wait
+IMAGE_NAME=wait-for
 QNAME=$(OWNER)/$(IMAGE_NAME)
 
 GIT_TAG=$(QNAME):$(TRAVIS_COMMIT)
