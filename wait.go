@@ -40,6 +40,7 @@ func waitForService(s string) error {
 		if err == nil {
 			break
 		}
+		fmt.Println("waiting for", dialName)
 		time.Sleep(1 * time.Second)
 	}
 	return nil
